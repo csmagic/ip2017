@@ -50,7 +50,7 @@ you should get an error that prelude not found
 
 Set the path thus at shell (make sure the path below is correct!)
 
-$ export PUGOFER=/home/<yourname>/gofer
+$ export PUGOFER=/home/[yourname]/gofer
 
 Now gofer should run (at shell) ie
 
@@ -64,7 +64,7 @@ should start
 
 Make a directory called elisp in ~/.emacs.d
 
-$ cd ~/.emacs.d
+$ cd ~/.emacs.d  
 $ mkdir elisp
 
 ## Copy contents<a id="sec-5-2" name="sec-5-2"></a>
@@ -88,7 +88,7 @@ Copy this whole file to bottom of ~/.emacs.d/init.el
 ## Download and install gnu-apl<a id="sec-6-1" name="sec-6-1"></a>
 
 Download deb from <https://www.gnu.org/software/apl/>  [Rpm if Fedora]
-Install using sudo dpkg -i <filename>
+Install using sudo dpkg -i [filename]
 
 ## Install gnu-apl mode for emacs from<a id="sec-6-2" name="sec-6-2"></a>
 
