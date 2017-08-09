@@ -3,7 +3,8 @@
 HINT: Always give types before functions\\
       When writing Inductive definitions, clarify the hypothesis
 #+OPTIONS: toc:nil
-*   Write an inductive gofer function nth to find the nth element of a list
+*  
+ Write an inductive gofer function nth to find the nth element of a list
 #+BEGIN_SOURCE 
   ? nth. 5. [1,2,3,4,5] 
    5
