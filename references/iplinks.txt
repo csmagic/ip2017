@@ -19,7 +19,7 @@
 
 * Settings                                                         :noexport:
 :PROPERTIES:
-:VISIBILITY: 
+:VISIBILITY: overview
 :END:
 /* Local Variables:  */
 /* mode: org           */
