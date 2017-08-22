@@ -14,7 +14,12 @@ myand.[] = True
 myand.(x::xs) = x && myand.xs
 
 --list_reduce: (Int->Int->Int) -> Int -> ([Int]->Int)
+list_reduce.op.id = sum2
+  where
+     sum2.(x::xs) = op.x.undefined
+
 list_reduce.op.id.(x::xs) = op.x.undefined
+
 
 
 
