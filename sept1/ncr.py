@@ -1,7 +1,7 @@
 def c(n,r):
-    if r == 0 :
+    if r == 0:
         return [[]]
-    elif len(n) == 0 :
+    elif len(n) == 0:
         return []
     else:
         return [[n[0]] + l for l in c(n[1:],r-1)] + c(n[1:],r)
